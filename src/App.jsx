@@ -14,7 +14,7 @@ import FooterWhite from "./components/Footer/FooterWhite"
 
 function App() {
 
-  let theme = "blue" // options = darkPink, darkBlue, blue, pink
+  let theme = "darkBlue" // options = darkPink, darkBlue, blue, pink
 
   function checkTheme(darkMode) {
     if (!darkMode) {
