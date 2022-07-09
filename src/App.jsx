@@ -12,7 +12,12 @@ import InfoBlack from "./components/InfoUser/InfoBlack"
 import FooterBlack from "./components/Footer/FooterBlack"
 import FooterWhite from "./components/Footer/FooterWhite"
 
+import { useDispatch } from 'react-redux';
+import { LoginUser } from './redux/userSlice';
+
 function App() {
+  const dispatch = useDispatch();
+  dispatch(LoginUser("asasasas"))
 
   let theme = "darkBlue" // options = darkPink, darkBlue, blue, pink
 
