@@ -9,6 +9,8 @@ const brandColors = {
   '1F000B': '#1F000B',
   'D6336C': '#D6336C',
   'A61E4D': '#A61E4D',
+  'E7E9EA': '#E7E9EA',
+  'onix': '#333639',
 }
 
 module.exports = {
